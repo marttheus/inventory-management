@@ -83,7 +83,7 @@ dotnet test
 dotnet test <path-to-test-project>
 ```
 
-### Contributing
+## Contributing
 Feel free to fork the repository and submit pull requests. Contributions are welcome! Here’s how you can contribute:
 
 1. Fork the repository.
@@ -91,7 +91,7 @@ Feel free to fork the repository and submit pull requests. Contributions are wel
 3. Make your changes and commit them.
 4. Open a pull request to the main branch.
 
-###License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
