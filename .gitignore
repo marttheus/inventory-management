@@ -1,0 +1,54 @@
+# Rider
+.idea/
+*.sln.iml
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Rider logs and backup files
+.idea/**/shelf/
+.idea/**/workspace.xml
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# ASP.NET launch settings
+**/Properties/launchSettings.json
+
+# ASP.NET temporary files
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+*.cache/
+*.bak
+*.swp
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Log and backup files
+*.log
+*.tlog
+*.log*
+*.vspscc
+*.vssscc
+*.orig
+
+# Others
+*.DS_Store
+*.~*
