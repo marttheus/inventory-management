@@ -2,9 +2,11 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{79B45C17-8865-4D50-B907-B11A5F2094ED}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FFC9281E-CE03-48E1-98C2-902E008D0088}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagement.Domain", "src\InventoryManagement.Domain\InventoryManagement.Domain.csproj", "{9D18DC41-D897-46F7-A36A-219D4691CD59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7ED0DD0A-D0D8-42A4-AC81-F3D8F97E10F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagement.ArchitectureTests", "tests\InventoryManagement.ArchitectureTests\InventoryManagement.ArchitectureTests.csproj", "{39BDF799-ACFD-40E2-92ED-C35B6E0929DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,11 +15,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9D18DC41-D897-46F7-A36A-219D4691CD59} = {79B45C17-8865-4D50-B907-B11A5F2094ED}
+		{39BDF799-ACFD-40E2-92ED-C35B6E0929DA} = {7ED0DD0A-D0D8-42A4-AC81-F3D8F97E10F3}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9D18DC41-D897-46F7-A36A-219D4691CD59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9D18DC41-D897-46F7-A36A-219D4691CD59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D18DC41-D897-46F7-A36A-219D4691CD59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D18DC41-D897-46F7-A36A-219D4691CD59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39BDF799-ACFD-40E2-92ED-C35B6E0929DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39BDF799-ACFD-40E2-92ED-C35B6E0929DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39BDF799-ACFD-40E2-92ED-C35B6E0929DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39BDF799-ACFD-40E2-92ED-C35B6E0929DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
